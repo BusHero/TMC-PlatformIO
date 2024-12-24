@@ -16,6 +16,12 @@
     "frameworks": "*",
     "platforms": "*",
     "build": {
-        "includeDir": "TMC-API/tmc/helpers"
+        "includeDir": "TMC-API/",
+        "flags": [
+            "-I TMC-API/tmc/ic/TMC2209",
+            "-I TMC-API/tmc/ic/TMC5130",
+            "-I TMC-API/tmc/ic/TMC5272",
+            "-I TMC-API/tmc/ic/TMC5271"
+        ]
     }
 }
