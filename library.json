@@ -15,9 +15,7 @@
     "license": "MIT",
     "frameworks": "*",
     "platforms": "*",
-    "export": {
-        "exclude": [
-            ".devcontainer/"
-        ]
+    "build": {
+        "includeDir": "TMC-API/tmc/helpers"
     }
 }
