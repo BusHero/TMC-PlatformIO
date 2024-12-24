@@ -21,7 +21,11 @@
             "-I TMC-API/tmc/ic/TMC2209",
             "-I TMC-API/tmc/ic/TMC5130",
             "-I TMC-API/tmc/ic/TMC5272",
-            "-I TMC-API/tmc/ic/TMC5271"
+            "-I TMC-API/tmc/ic/TMC5271",
+            "-Wno-discarded-qualifiers",
+            "-Wno-unused-variable",
+            "-Wno-pointer-sign",
+            "-Wno-implicit-function-declaration"
         ]
     },
     "export": {
