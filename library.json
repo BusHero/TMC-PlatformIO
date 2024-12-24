@@ -3,7 +3,7 @@
     "name": "TMC PlatformIO",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/BusHero/TMC-PlatformIO.git"
     },
     "authors": [
         {
@@ -61,5 +61,5 @@
             ".gitmodules"
         ]
     },
-    "version": "0.1.0"
+    "version": "3.10.5"
 }
