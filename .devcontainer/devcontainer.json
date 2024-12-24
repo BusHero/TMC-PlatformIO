@@ -1,0 +1,19 @@
+{
+	"name": "TMC-PlatformIO",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".",
+		"args": {
+			"FEDORA_COMPAT": "1", // enables fedora compatibility mode (extra dialout group with gid 18)
+			"VARIANT": "bookworm"
+		}
+	},
+	"remoteUser": "root",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools"
+			]
+		}
+	}
+}
