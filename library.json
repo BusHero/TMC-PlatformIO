@@ -23,5 +23,15 @@
             "-I TMC-API/tmc/ic/TMC5272",
             "-I TMC-API/tmc/ic/TMC5271"
         ]
-    }
+    },
+    "export": {
+        "include": [
+            "TMC-API/*"
+        ],
+        "exclude": [
+            ".devcontainer/*",
+            ".gitmodules"
+        ]
+    },
+    "version": "0.1.0"
 }
