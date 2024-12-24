@@ -14,5 +14,10 @@
     ],
     "license": "MIT",
     "frameworks": "*",
-    "platforms": "*"
+    "platforms": "*",
+    "export": {
+        "exclude": [
+            ".devcontainer/"
+        ]
+    }
 }
