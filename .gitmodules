@@ -1,4 +1,4 @@
 [submodule "TMC-API"]
 	path = TMC-API
-	url = https://github.com/BusHero/TMC-API
-	branch = tags/3.10.5
+	url = https://github.com/analogdevicesinc/TMC-API
+	branch = tags/3.10.10

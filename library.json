@@ -19,6 +19,7 @@
         "includeDir": "TMC-API/",
         "flags": [
             "-ITMC-API/tmc/ic/MAX22216",
+            "-ITMC-API/tmc/ic/TMC262",
             "-ITMC-API/tmc/ic/TMC2130",
             "-ITMC-API/tmc/ic/TMC2160",
             "-ITMC-API/tmc/ic/TMC2208",
@@ -29,7 +30,6 @@
             "-ITMC-API/tmc/ic/TMC2240",
             "-ITMC-API/tmc/ic/TMC2262",
             "-ITMC-API/tmc/ic/TMC2300",
-            "-ITMC-API/tmc/ic/TMC262",
             "-ITMC-API/tmc/ic/TMC2660",
             "-ITMC-API/tmc/ic/TMC4361A",
             "-ITMC-API/tmc/ic/TMC4671",
@@ -61,5 +61,5 @@
             ".gitmodules"
         ]
     },
-    "version": "3.10.5"
+    "version": "3.10.10"
 }
